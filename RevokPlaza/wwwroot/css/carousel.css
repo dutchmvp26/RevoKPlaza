@@ -1,0 +1,33 @@
+﻿#mod-carousel {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.featured-mod {
+    width: 100%;
+    height: 100%;
+    background-color: #444;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    display: none;
+}
+
+.mod-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.carousel-controls {
+    text-align: center;
+}
+
+    .carousel-controls button {
+        margin: 0 10px;
+        padding: 10px 20px;
+        font-size: 1rem;
+    }

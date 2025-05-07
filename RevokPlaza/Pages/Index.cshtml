@@ -1,0 +1,67 @@
+﻿@page
+@model RevokPlaza.Pages.IndexModel
+
+@{
+    ViewData["Title"] = "Home";
+}
+
+<link rel="stylesheet" href="~/css/index.css" />
+<script src="~/js/carousel.js"></script>
+
+<div class="navbar">
+    <div class="logo">RevoKPlaza</div>
+    <div class="search-box">
+        <input type="text" placeholder="Search..." />
+        <button class="search-btn">🔍</button>
+    </div>
+    <div class="login">
+        <a href="#">Login!</a>
+    </div>
+</div>
+
+@if (Model.FeaturedMods.Any())
+{
+    <div class="carousel-wrapper">
+        <button class="carousel-arrow" onclick="prevMod()">◀</button>
+        <div class="carousel" id="carousel-container">
+            @for (int i = 0; i < Model.FeaturedMods.Count; i++)
+            {
+                var mod = Model.FeaturedMods[i];
+                <div class="featured-mod" data-index="@i">
+                    <h2>@mod.Name</h2>
+                    <p>@mod.Description</p>
+                    @{
+                        var imageUrl = string.IsNullOrWhiteSpace(mod.ImageUrl)
+                        ? "/images/papermario.jpg" // Your default image path
+                        : mod.ImageUrl;
+                    }
+                    <div class="featured-mod" data-index="@i" style="background-image: url('@imageUrl'); background-size: cover; background-position: center;">
+
+                        <p>Image URL: @mod.ImageUrl</p>
+                        <h2>@mod.Name</h2>
+                        <p>@mod.Description</p>
+            
+
+                    </div>
+                </div>
+            }
+        </div>
+        <button class="carousel-arrow" onclick="nextMod()">▶</button>
+    </div>
+}
+
+<div class="sort-bar">
+    <button class="sort-button">Sort By (Newest, Popular)</button>
+</div>
+
+<div class="mod-grid">
+    @foreach (var mod in Model.Mods)
+    {
+        <div class="mod-card">
+            <h3>@mod.Name</h3>
+            <p>@mod.Description</p>
+            <span>Type: @mod.ModType</span>
+            <small>@mod.UploadDate.ToShortDateString()</small>
+        </div>
+    }
+</div>

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevokPlaza", "RevokPlaza\RevokPlaza.csproj", "{BF9BD67B-D255-4A46-B105-E375708020B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DALClassLibrary", "DALClassLibrary\DALClassLibrary.csproj", "{6AEACCEB-7523-472C-B74C-8435B59DEF48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LOGClassLibrary", "LOGClassLibrary\LOGClassLibrary.csproj", "{139B370F-DF8F-4A7F-BC26-2F1AA820462D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF9BD67B-D255-4A46-B105-E375708020B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF9BD67B-D255-4A46-B105-E375708020B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF9BD67B-D255-4A46-B105-E375708020B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF9BD67B-D255-4A46-B105-E375708020B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AEACCEB-7523-472C-B74C-8435B59DEF48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AEACCEB-7523-472C-B74C-8435B59DEF48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AEACCEB-7523-472C-B74C-8435B59DEF48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AEACCEB-7523-472C-B74C-8435B59DEF48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{139B370F-DF8F-4A7F-BC26-2F1AA820462D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{139B370F-DF8F-4A7F-BC26-2F1AA820462D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{139B370F-DF8F-4A7F-BC26-2F1AA820462D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{139B370F-DF8F-4A7F-BC26-2F1AA820462D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

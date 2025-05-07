@@ -1,0 +1,26 @@
+﻿@using Microsoft.AspNetCore.Mvc.RazorPages
+@using Microsoft.AspNetCore.Mvc.ViewFeatures
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"] - RevoKPlaza</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header>
+        <!-- navbar here -->
+    </header>
+
+    <main role="main" class="pb-3">
+        @RenderBody()  <!-- This will render the content from each Razor page -->
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - RevoKPlaza</p>
+    </footer>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,15 @@
+C:\Users\smuld\source\repos\RevokPlaza\LOGClassLibrary\bin\Debug\net8.0\LOGClassLibrary.deps.json
+C:\Users\smuld\source\repos\RevokPlaza\LOGClassLibrary\bin\Debug\net8.0\LOGClassLibrary.dll
+C:\Users\smuld\source\repos\RevokPlaza\LOGClassLibrary\bin\Debug\net8.0\LOGClassLibrary.pdb
+C:\Users\smuld\source\repos\RevokPlaza\LOGClassLibrary\bin\Debug\net8.0\DALClassLibrary.dll
+C:\Users\smuld\source\repos\RevokPlaza\LOGClassLibrary\bin\Debug\net8.0\DALClassLibrary.pdb
+C:\Users\smuld\source\repos\RevokPlaza\LOGClassLibrary\obj\Debug\net8.0\LOGClassLibrary.csproj.AssemblyReference.cache
+C:\Users\smuld\source\repos\RevokPlaza\LOGClassLibrary\obj\Debug\net8.0\LOGClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\smuld\source\repos\RevokPlaza\LOGClassLibrary\obj\Debug\net8.0\LOGClassLibrary.AssemblyInfoInputs.cache
+C:\Users\smuld\source\repos\RevokPlaza\LOGClassLibrary\obj\Debug\net8.0\LOGClassLibrary.AssemblyInfo.cs
+C:\Users\smuld\source\repos\RevokPlaza\LOGClassLibrary\obj\Debug\net8.0\LOGClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\smuld\source\repos\RevokPlaza\LOGClassLibrary\obj\Debug\net8.0\LOGClass.FE66B47C.Up2Date
+C:\Users\smuld\source\repos\RevokPlaza\LOGClassLibrary\obj\Debug\net8.0\LOGClassLibrary.dll
+C:\Users\smuld\source\repos\RevokPlaza\LOGClassLibrary\obj\Debug\net8.0\refint\LOGClassLibrary.dll
+C:\Users\smuld\source\repos\RevokPlaza\LOGClassLibrary\obj\Debug\net8.0\LOGClassLibrary.pdb
+C:\Users\smuld\source\repos\RevokPlaza\LOGClassLibrary\obj\Debug\net8.0\ref\LOGClassLibrary.dll
