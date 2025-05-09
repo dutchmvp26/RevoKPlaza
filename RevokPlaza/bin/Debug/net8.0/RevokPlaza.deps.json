@@ -8,11 +8,13 @@
     ".NETCoreApp,Version=v8.0": {
       "RevokPlaza/1.0.0": {
         "dependencies": {
+          "DALClassLibrary": "1.0.0",
           "LOGClassLibrary": "1.0.0",
           "Microsoft.Data.SqlClient": "6.0.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.4",
           "Microsoft.EntityFrameworkCore.Tools": "9.0.4",
           "Microsoft.Extensions.Configuration": "9.0.4",
+          "SharedModels": "1.0.0",
           "System.Configuration.ConfigurationManager": "9.0.4"
         },
         "runtime": {
@@ -1002,7 +1004,9 @@
         "dependencies": {
           "Microsoft.Data.SqlClient": "6.0.1",
           "Microsoft.EntityFrameworkCore": "9.0.4",
+          "Microsoft.EntityFrameworkCore.Relational": "9.0.4",
           "Microsoft.Extensions.Configuration": "9.0.4",
+          "SharedModels": "1.0.0",
           "System.Configuration.ConfigurationManager": "9.0.4"
         },
         "runtime": {
@@ -1021,6 +1025,14 @@
         },
         "runtime": {
           "LOGClassLibrary.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SharedModels/1.0.0": {
+        "runtime": {
+          "SharedModels.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -1523,6 +1535,11 @@
       "sha512": ""
     },
     "LOGClassLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SharedModels/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,37 +1,28 @@
-using Microsoft.AspNetCore.Mvc.RazorPages;
-using RevokPlaza.Data;
-using RevokPlaza.Models;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Mvc.RazorPages;
+using SharedModels;
+using LOGClassLibrary;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
+using System.Linq;
 
 namespace RevokPlaza.Pages
 {
     public class IndexModel : PageModel
     {
-        private readonly AppDbContext _context;
+        private readonly IModService _modService;
 
-        public IndexModel(AppDbContext context)
+        public IndexModel(IModService modService)
         {
-            _context = context;
+            _modService = modService;
         }
 
         public List<Mod> FeaturedMods { get; set; } = new();
-        public List<Mod> Mods { get; set; } = new
-            ();
+        public List<Mod> Mods { get; set; } = new();
 
         public async Task OnGetAsync()
         {
-            // Load mods from the database
-            Mods = await _context.Mods
-                .OrderByDescending(m => m.UploadDate)  // Use UploadDate for sorting
-                .Take(20)
-                .ToListAsync();
-
-            // Set featured mods (e.g., top 4 newest mods for now)
+            Mods = await _modService.GetLatestModsAsync();
             FeaturedMods = Mods.Take(4).ToList();
-
         }
     }
 }

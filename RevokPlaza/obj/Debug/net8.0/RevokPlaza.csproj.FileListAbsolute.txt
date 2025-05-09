@@ -182,3 +182,5 @@ C:\Users\smuld\source\repos\RevokPlaza\RevokPlaza\obj\Debug\net8.0\refint\RevokP
 C:\Users\smuld\source\repos\RevokPlaza\RevokPlaza\obj\Debug\net8.0\RevokPlaza.pdb
 C:\Users\smuld\source\repos\RevokPlaza\RevokPlaza\obj\Debug\net8.0\RevokPlaza.genruntimeconfig.cache
 C:\Users\smuld\source\repos\RevokPlaza\RevokPlaza\obj\Debug\net8.0\ref\RevokPlaza.dll
+C:\Users\smuld\source\repos\RevokPlaza\RevokPlaza\bin\Debug\net8.0\SharedModels.dll
+C:\Users\smuld\source\repos\RevokPlaza\RevokPlaza\bin\Debug\net8.0\SharedModels.pdb

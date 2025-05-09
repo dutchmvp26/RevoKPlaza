@@ -1,11 +1,14 @@
-C:\Users\smuld\source\repos\RevokPlaza\DALClassLibrary\bin\Debug\net8.0\DALClassLibrary.deps.json
-C:\Users\smuld\source\repos\RevokPlaza\DALClassLibrary\bin\Debug\net8.0\DALClassLibrary.dll
-C:\Users\smuld\source\repos\RevokPlaza\DALClassLibrary\bin\Debug\net8.0\DALClassLibrary.pdb
 C:\Users\smuld\source\repos\RevokPlaza\DALClassLibrary\obj\Debug\net8.0\DALClassLibrary.csproj.AssemblyReference.cache
 C:\Users\smuld\source\repos\RevokPlaza\DALClassLibrary\obj\Debug\net8.0\DALClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\smuld\source\repos\RevokPlaza\DALClassLibrary\obj\Debug\net8.0\DALClassLibrary.AssemblyInfoInputs.cache
 C:\Users\smuld\source\repos\RevokPlaza\DALClassLibrary\obj\Debug\net8.0\DALClassLibrary.AssemblyInfo.cs
 C:\Users\smuld\source\repos\RevokPlaza\DALClassLibrary\obj\Debug\net8.0\DALClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\smuld\source\repos\RevokPlaza\DALClassLibrary\bin\Debug\net8.0\DALClassLibrary.deps.json
+C:\Users\smuld\source\repos\RevokPlaza\DALClassLibrary\bin\Debug\net8.0\DALClassLibrary.dll
+C:\Users\smuld\source\repos\RevokPlaza\DALClassLibrary\bin\Debug\net8.0\DALClassLibrary.pdb
+C:\Users\smuld\source\repos\RevokPlaza\DALClassLibrary\bin\Debug\net8.0\SharedModels.dll
+C:\Users\smuld\source\repos\RevokPlaza\DALClassLibrary\bin\Debug\net8.0\SharedModels.pdb
+C:\Users\smuld\source\repos\RevokPlaza\DALClassLibrary\obj\Debug\net8.0\DALClass.1A9BE8B6.Up2Date
 C:\Users\smuld\source\repos\RevokPlaza\DALClassLibrary\obj\Debug\net8.0\DALClassLibrary.dll
 C:\Users\smuld\source\repos\RevokPlaza\DALClassLibrary\obj\Debug\net8.0\refint\DALClassLibrary.dll
 C:\Users\smuld\source\repos\RevokPlaza\DALClassLibrary\obj\Debug\net8.0\DALClassLibrary.pdb

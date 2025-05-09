@@ -1,7 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using RevokPlaza.Models;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using SharedModels;
 
-namespace RevokPlaza.wwwroot.css
+
+
+namespace DALClassLibrary
 {
     public class AppDbContext : DbContext
     {
@@ -10,14 +13,12 @@ namespace RevokPlaza.wwwroot.css
         {
         }
 
-        public DbSet<Mod> Mods { get; set; }  // This will map to the "Mods" table
+        public DbSet<Mod> Mods { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // Map the "Mods" table
             modelBuilder.Entity<Mod>().ToTable("Mod");
 
-            // Map properties to their respective columns
             modelBuilder.Entity<Mod>().Property(m => m.ModID).HasColumnName("ModId");
             modelBuilder.Entity<Mod>().Property(m => m.Name).HasColumnName("Name");
             modelBuilder.Entity<Mod>().Property(m => m.ModType).HasColumnName("Type");
@@ -26,7 +27,6 @@ namespace RevokPlaza.wwwroot.css
             modelBuilder.Entity<Mod>().Property(m => m.UploadDate).HasColumnName("UploadDate");
             modelBuilder.Entity<Mod>().Property(m => m.AuthorID).HasColumnName("AuthorID");
             modelBuilder.Entity<Mod>().Property(m => m.ImageUrl).HasColumnName("ImageUrl");
-
         }
     }
 }

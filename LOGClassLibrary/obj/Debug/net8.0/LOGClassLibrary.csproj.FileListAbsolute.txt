@@ -2,7 +2,9 @@ C:\Users\smuld\source\repos\RevokPlaza\LOGClassLibrary\bin\Debug\net8.0\LOGClass
 C:\Users\smuld\source\repos\RevokPlaza\LOGClassLibrary\bin\Debug\net8.0\LOGClassLibrary.dll
 C:\Users\smuld\source\repos\RevokPlaza\LOGClassLibrary\bin\Debug\net8.0\LOGClassLibrary.pdb
 C:\Users\smuld\source\repos\RevokPlaza\LOGClassLibrary\bin\Debug\net8.0\DALClassLibrary.dll
+C:\Users\smuld\source\repos\RevokPlaza\LOGClassLibrary\bin\Debug\net8.0\SharedModels.dll
 C:\Users\smuld\source\repos\RevokPlaza\LOGClassLibrary\bin\Debug\net8.0\DALClassLibrary.pdb
+C:\Users\smuld\source\repos\RevokPlaza\LOGClassLibrary\bin\Debug\net8.0\SharedModels.pdb
 C:\Users\smuld\source\repos\RevokPlaza\LOGClassLibrary\obj\Debug\net8.0\LOGClassLibrary.csproj.AssemblyReference.cache
 C:\Users\smuld\source\repos\RevokPlaza\LOGClassLibrary\obj\Debug\net8.0\LOGClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\smuld\source\repos\RevokPlaza\LOGClassLibrary\obj\Debug\net8.0\LOGClassLibrary.AssemblyInfoInputs.cache
