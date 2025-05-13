@@ -1,0 +1,17 @@
+﻿@page "{id:int}"
+@model RevoKPlaza.Pages.Mod.DetailsModel
+
+@{
+    ViewData["Title"] = "Mod Details";
+}
+
+<h1>@Model.Mod.Name</h1>
+
+@if (!string.IsNullOrEmpty(Model.Mod.ImageUrl))
+{
+    <img src="@Model.Mod.ImageUrl" alt="@Model.Mod.Name" style="max-width: 100%; height: auto;" />
+}
+<p>@Model.Mod.Description</p>
+<p><strong>Type:</strong> @Model.Mod.ModType</p>
+<p><strong>Uploaded on:</strong> @Model.Mod.UploadDate.ToShortDateString()</p>
+<a href="@Model.Mod.DownloadLink" target="_blank">Download</a>

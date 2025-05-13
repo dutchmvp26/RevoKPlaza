@@ -60,6 +60,18 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-DcR0vIUt40WhOAC22KQpUwszD4AFYu0ATxHYw\u002BFnshM="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"158093"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022DcR0vIUt40WhOAC22KQpUwszD4AFYu0ATxHYw\u002BFnshM=\u0022"},{"Name":"Last-Modified","Value":"Tue, 06 May 2025 13:01:17 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/RevokPlaza/images/rainbowroad.2225097jg1.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\rainbowroad.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2225097jg1"},{"Name":"integrity","Value":"sha256-qo1fVS4oaTR\u002BLTpLxWrRAJBveQwRvkdL9CdaSo6uw/M="},{"Name":"label","Value":"_content/RevokPlaza/images/rainbowroad.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1371016"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022qo1fVS4oaTR\u002BLTpLxWrRAJBveQwRvkdL9CdaSo6uw/M=\u0022"},{"Name":"Last-Modified","Value":"Mon, 12 May 2025 09:50:29 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/RevokPlaza/images/rainbowroad.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\rainbowroad.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-qo1fVS4oaTR\u002BLTpLxWrRAJBveQwRvkdL9CdaSo6uw/M="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1371016"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022qo1fVS4oaTR\u002BLTpLxWrRAJBveQwRvkdL9CdaSo6uw/M=\u0022"},{"Name":"Last-Modified","Value":"Mon, 12 May 2025 09:50:29 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/RevokPlaza/js/carousel.59kpx9lmt4.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\carousel.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -772,13 +784,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\RevokPlaza.eyd69ren7n.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-JiHozSpbbjgg/4VkIwAB98K9oHkiB26yFbcaGk7MJCk="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1128"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022JiHozSpbbjgg/4VkIwAB98K9oHkiB26yFbcaGk7MJCk=\u0022"},{"Name":"Last-Modified","Value":"Wed, 07 May 2025 11:45:35 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1128"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022JiHozSpbbjgg/4VkIwAB98K9oHkiB26yFbcaGk7MJCk=\u0022"},{"Name":"Last-Modified","Value":"Mon, 12 May 2025 08:48:36 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/RevokPlaza/RevokPlaza.eyd69ren7n.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\RevokPlaza.eyd69ren7n.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"eyd69ren7n"},{"Name":"integrity","Value":"sha256-JiHozSpbbjgg/4VkIwAB98K9oHkiB26yFbcaGk7MJCk="},{"Name":"label","Value":"_content/RevokPlaza/RevokPlaza.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1128"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022JiHozSpbbjgg/4VkIwAB98K9oHkiB26yFbcaGk7MJCk=\u0022"},{"Name":"Last-Modified","Value":"Wed, 07 May 2025 11:45:35 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1128"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022JiHozSpbbjgg/4VkIwAB98K9oHkiB26yFbcaGk7MJCk=\u0022"},{"Name":"Last-Modified","Value":"Mon, 12 May 2025 08:48:36 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

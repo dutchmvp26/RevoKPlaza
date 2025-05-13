@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\images\\papermario.jpg"
     },
     {
+      "Id": "C:\\Users\\smuld\\source\\repos\\RevokPlaza\\RevokPlaza\\wwwroot\\images\\rainbowroad.png",
+      "PackagePath": "staticwebassets\\images\\rainbowroad.png"
+    },
+    {
       "Id": "C:\\Users\\smuld\\source\\repos\\RevokPlaza\\RevokPlaza\\wwwroot\\js\\carousel.js",
       "PackagePath": "staticwebassets\\js\\carousel.js"
     },

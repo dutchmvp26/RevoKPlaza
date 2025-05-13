@@ -9,3 +9,4 @@ namespace LOGClassLibrary
         Task<List<Mod>> GetLatestModsAsync();
     }
 }
+

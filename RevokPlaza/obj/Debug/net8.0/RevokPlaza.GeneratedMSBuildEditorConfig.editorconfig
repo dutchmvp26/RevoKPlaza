@@ -36,20 +36,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/smuld/source/repos/RevokPlaza/RevokPlaza/Pages/Mods/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW9kc1xDcmVhdGUuY3NodG1s
+[C:/Users/smuld/source/repos/RevokPlaza/RevokPlaza/Pages/Mod/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW9kXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/smuld/source/repos/RevokPlaza/RevokPlaza/Pages/Mods/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW9kc1xEZWxldGUuY3NodG1s
+[C:/Users/smuld/source/repos/RevokPlaza/RevokPlaza/Pages/Mod/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW9kXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/smuld/source/repos/RevokPlaza/RevokPlaza/Pages/Mods/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW9kc1xEZXRhaWxzLmNzaHRtbA==
+[C:/Users/smuld/source/repos/RevokPlaza/RevokPlaza/Pages/Mod/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW9kXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/smuld/source/repos/RevokPlaza/RevokPlaza/Pages/Mods/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW9kc1xFZGl0LmNzaHRtbA==
+[C:/Users/smuld/source/repos/RevokPlaza/RevokPlaza/Pages/Mod/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW9kXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/smuld/source/repos/RevokPlaza/RevokPlaza/Pages/Privacy.cshtml]

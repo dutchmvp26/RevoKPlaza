@@ -27,23 +27,16 @@
             @for (int i = 0; i < Model.FeaturedMods.Count; i++)
             {
                 var mod = Model.FeaturedMods[i];
-                <div class="featured-mod" data-index="@i">
-                    <h2>@mod.Name</h2>
-                    <p>@mod.Description</p>
-                    @{
-                        var imageUrl = string.IsNullOrWhiteSpace(mod.ImageUrl)
-                        ? "/images/papermario.jpg" // Your default image path
-                        : mod.ImageUrl;
-                    }
-                    <div class="featured-mod" data-index="@i" style="background-image: url('@imageUrl'); background-size: cover; background-position: center;">
+                var imageUrl = string.IsNullOrWhiteSpace(mod.ImageUrl)
+                ? "/images/default.jpg"
+                : mod.ImageUrl;
 
-                        <p>Image URL: @mod.ImageUrl</p>
+                <a href="/Mod/Details/@mod.ModID">
+                    <div class="featured-mod" data-index="@i" style="background-image: url('@imageUrl'); background-size: cover; background-position: center;">
                         <h2>@mod.Name</h2>
                         <p>@mod.Description</p>
-            
-
                     </div>
-                </div>
+                </a>
             }
         </div>
         <button class="carousel-arrow" onclick="nextMod()">▶</button>
@@ -57,11 +50,14 @@
 <div class="mod-grid">
     @foreach (var mod in Model.Mods)
     {
-        <div class="mod-card">
-            <h3>@mod.Name</h3>
-            <p>@mod.Description</p>
-            <span>Type: @mod.ModType</span>
-            <small>@mod.UploadDate.ToShortDateString()</small>
-        </div>
+        <a href="/Mod/Details/@mod.ModID" class="mod-card-link">
+            <div class="mod-card">
+                <h3>@mod.Name</h3>
+                <p>@mod.Description</p>
+                <span>Type: @mod.ModType</span><br />
+                <small>@mod.UploadDate.ToShortDateString()</small>
+            </div>
+        </a>
     }
 </div>
+

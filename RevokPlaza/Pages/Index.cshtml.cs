@@ -16,8 +16,9 @@ namespace RevokPlaza.Pages
             _modService = modService;
         }
 
-        public List<Mod> FeaturedMods { get; set; } = new();
-        public List<Mod> Mods { get; set; } = new();
+        public List<SharedModels.Mod> FeaturedMods { get; set; } = new();
+        public List<SharedModels.Mod> Mods { get; set; } = new();
+
 
         public async Task OnGetAsync()
         {
