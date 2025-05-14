@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\smuld\\source\\repos\\RevokPlaza\\RevokPlaza\\wwwroot\\images\\UI.jpg",
+      "PackagePath": "staticwebassets\\images\\UI.jpg"
+    },
+    {
       "Id": "C:\\Users\\smuld\\source\\repos\\RevokPlaza\\RevokPlaza\\wwwroot\\images\\papermario.jpg",
       "PackagePath": "staticwebassets\\images\\papermario.jpg"
     },

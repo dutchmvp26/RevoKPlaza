@@ -4,6 +4,7 @@ wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\images\papermario.jpg
 wwwroot\images\rainbowroad.png
+wwwroot\images\UI.jpg
 wwwroot\js\carousel.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css

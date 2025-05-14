@@ -9,9 +9,16 @@
 
 @if (!string.IsNullOrEmpty(Model.Mod.ImageUrl))
 {
-    <img src="@Model.Mod.ImageUrl" alt="@Model.Mod.Name" style="max-width: 100%; height: auto;" />
+    <img src="@Model.Mod.ImageUrl" alt="@Model.Mod.Name" class="img" />
 }
 <p>@Model.Mod.Description</p>
 <p><strong>Type:</strong> @Model.Mod.ModType</p>
 <p><strong>Uploaded on:</strong> @Model.Mod.UploadDate.ToShortDateString()</p>
 <a href="@Model.Mod.DownloadLink" target="_blank">Download</a>
+
+<style>
+    .img {
+        width:550px;
+        height: 300px;
+    }
+    </style>

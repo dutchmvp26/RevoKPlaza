@@ -1,9 +1,22 @@
 ﻿body {
-    font-family: Arial, sans-serif;
-    background-color: #111;
-    color: #eee;
-    margin: 0;
-    padding: 0;
+    background-image: url('/images/UI.jpg'); /* or .png */
+    background-size: cover; /* scales image to cover full screen */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* makes it stay in place while scrolling */
+    background-position: center center;
+    background-color: #000; /* fallback if image fails to load */
+}
+
+.container {
+    background-image: url('/images/UI.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+main.container {
+    min-height: 100%;
 }
 
 .navbar {
